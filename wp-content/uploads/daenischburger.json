@@ -1,0 +1,195 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "81",
+            "short_name" : "81",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Dänischburger Landstraße",
+            "short_name" : "Dänischburger Landstraße",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Kücknitz",
+            "short_name" : "Kücknitz",
+            "types" : [ "sublocality_level_1", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Lübeck",
+            "short_name" : "Lübeck",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Schleswig-Holstein",
+            "short_name" : "SH",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Deutschland",
+            "short_name" : "DE",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "23569",
+            "short_name" : "23569",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003eDänischburger Landstraße 81\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e23569\u003c/span\u003e \u003cspan class=\"locality\"\u003eLübeck\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eDeutschland\u003c/span\u003e",
+      "formatted_address" : "Dänischburger Landstraße 81, 23569 Lübeck, Deutschland",
+      "formatted_phone_number" : "0451 2925090",
+      "geometry" : {
+         "location" : {
+            "lat" : 53.9123613,
+            "lng" : 10.7317919
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 53.9137102802915,
+               "lng" : 10.7331408802915
+            },
+            "southwest" : {
+               "lat" : 53.9110123197085,
+               "lng" : 10.7304429197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "9e5bc94866cb4471a3a05abddd978e82a3a19b4e",
+      "international_phone_number" : "+49 451 2925090",
+      "name" : "Klindwort Apotheke im LUV",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0900"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Montag: 09:00–20:00 Uhr",
+            "Dienstag: 09:00–20:00 Uhr",
+            "Mittwoch: 09:00–20:00 Uhr",
+            "Donnerstag: 09:00–20:00 Uhr",
+            "Freitag: 09:00–20:00 Uhr",
+            "Samstag: 09:00–20:00 Uhr",
+            "Sonntag: Geschlossen"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 2048,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/103225014561122748070/photos\"\u003eKlindwort Apotheke im LUV\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAodf6v5TfvER4aCaHM1RLKPT1RhPuyRcW9FYONSwl5gE4uJ5OyJ8IoC8L4dMzE2HU7oMszioNpmnaCuqPjIIW7pS0A-N72jaBtz5zhxSr6G0TOyzxnfejnZkvOyA2wTMjEhAsSLKTFyNTvu_UaaOCH3lhGhQIqgPE27DPOtdZ9Dw81yBMVIxPFA",
+            "width" : 2048
+         },
+         {
+            "height" : 3024,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/102937372968115844155/photos\"\u003eDetlef R.\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAaj5s35aYOr6GXKkTaRJongoiriHPjb3PWA1dL6PcQeURhdV1h5jb0LOEPCLCml2cvP5zqey8Za03g3X3BhzNVSW8kaWlUhf1X4E2NQ41jWSnUqOOeUanVtChPoYVxr0LEhAd6958CdZiAOFHCqJwWfs8GhTg-PvKAL2yhm8ZwzchscOEhfkXLQ",
+            "width" : 4032
+         },
+         {
+            "height" : 3024,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108343057677695584521/photos\"\u003eAlexej Engelmann\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAKQAtcPn_UMV8YU2JBUn2F5e5pQw8oJhbBssnllxAXwODhy6m5BRrbQOjX7_EDK899s2w0Az28-tlK5XqNaZVa5UTTfQw0-_4kdScnYcvoJuCQ6x41LhoJsj6HKhU_1W3EhAPMo_ICeE8OzzjMmef5D0VGhQZkd2HzgvET2u0H6GGR97kLgxaTw",
+            "width" : 4032
+         },
+         {
+            "height" : 1000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/103225014561122748070/photos\"\u003eKlindwort Apotheke im LUV\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAlg4NDirtlocSoIzw_lMVcNv-yyDwz7GAXALoxQIstyXntzZSUd6SnzyVJxN-OfwmCP5nngSQWxqM38GDMWtJX6qDKfUhEnCbzdvEwNBR2Pns4eFlWCaSSK0xG8Bf-ujJEhBZ-iZdMBEgmLewN1aG2MY5GhTXVyX4LuLDjIovgoOGAfrHahoXRA",
+            "width" : 1000
+         }
+      ],
+      "place_id" : "ChIJXai2QgYLskcRIAb8-oyS5mU",
+      "rating" : 5,
+      "reference" : "CmRRAAAAUhx-5JCjBhjQCr196meCQdjsRXDUnhVM_o5JMl_zhwpSUEcXfio47jmLzxNX7B2-nf602SqLErTfJHfI2Lq58Y0U7f8dRMBNeGHyZQ_xEu5JF71w89GQhJl95TzSv29EEhDAfkfykVmDooAsiTXS8GGLGhRAs80M1oLi52UQqjcLWGolU2TW1A",
+      "reviews" : [
+         {
+            "author_name" : "Daniel Preusche",
+            "author_url" : "https://www.google.com/maps/contrib/106871514506870256578/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh4.googleusercontent.com/-u8CKY1N1rsM/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePaEjh8GeDXxw1quAvBUNEW04Vz_RQ/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 10 Monaten",
+            "text" : "",
+            "time" : 1479331129
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "pharmacy", "health", "store", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=7342717376678069792",
+      "utc_offset" : 120,
+      "vicinity" : "Dänischburger Landstraße 81, Lübeck",
+      "website" : "http://www.klindwort.de/"
+   },
+   "status" : "OK"
+}

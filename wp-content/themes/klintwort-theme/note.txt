@@ -1,0 +1,102 @@
+<div class="row">
+<div class="col-md-4">
+<p class="filialen">Lübecker Straße 18</p>
+<p>23611 Bad Schwartau</p>
+<p>Telefon: (0451) 29 25 011</p>
+<p>Fax: (0451) 29 25 016</p>
+<div class="email"><a href="mailto:apo1@klindwort.de">apo1@klindwort.de</a></div>
+<div class="display">
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</div>
+<p class="opening">&nbsp;Öffnungszeiten</p>
+<div class="opening_hours">
+<div><p>Mo.</p><p>08:00-18:30</p></div>
+<div><p>Di.</p><p>08:00-18:30</p></div>
+<div><p>Mi.</p><p>08:00-18:00</p></div>
+<div><p>Do.</p><p>08:00-18:30</p></div>
+<div><p>Fr.</p><p>08:00-18:00</p></div>
+<div><p>Sa.</p><p>08:30-13:00</p></div>
+<div><p>So.</p><p>Geschlossen</p></div>
+</div>
+</div>
+<div class="col-md-4">
+<p class="filialen">Rathausgasse 2</p>
+<p>23611 Bad Schwartau</p>
+<p>Telefon: (0451) 29 25 055</p>
+<p>Fax: (0451) 29 25 056</p>
+<div class="email"><a href="mailto:apo2@klindwort.de">apo1@klindwort.de</a></div>
+<div class="display">
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</div>
+<p class="opening">&nbsp;Öffnungszeiten</p>
+<div class="opening_hours">
+<div><p>Mo.</p><p>08:00-18:30</p></div>
+<div><p>Di.</p><p>08:00-18:30</p></div>
+<div><p>Mi.</p><p>08:00-18:00</p></div>
+<div><p>Do.</p><p>08:00-18:30</p></div>
+<div><p>Fr.</p><p>08:00-18:30</p></div>
+<div><p>Sa.</p><p>08:00-13:00</p></div>
+<div><p>So.</p><p>Geschlossen</p></div>
+</div>
+</div>
+<div class="col-md-4">
+<p class="filialen">Strandallee 94a</p>
+<p>23669 Timmendorfer Strand</p>
+<p>Telefon: (04503) 88 90 40</p>
+<p>Fax: (04503) 88 90 49</p>
+<div class="email"><a href="mailto:apo1@klindwort.de">apo4@klindwort.de</a></div>
+<div class="display">
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</div>
+<p class="opening">&nbsp;Öffnungszeiten</p>
+<div class="opening_hours">
+<div><p>Mo.</p><p>08:30-18:30</p></div>
+<div><p>Di.</p><p>08:30-18:30</p></div>
+<div><p>Mi.</p><p>08:30-13:30</p></div>
+<div><p>Do.</p><p>08:30-18:30</p></div>
+<div><p>Fr.</p><p>08:30-18:30</p></div>
+<div><p>Sa.</p><p>08:30-16:00</p></div>
+<div><p>So.</p><p>Geschlossen</p></div>
+</div>
+</div>
+<div class="col-md-4">
+<p class="filialen">Dänischburger Landstraße 81</p>
+<p>23569 Lübeck StT. Dänischburg</p>
+<p>Telefon: (0451) 29 25 090</p>
+<p>Fax: (0451) 29 25 096</p>
+<div class="email"><a href="mailto:apo1@klindwort.de">apo5@klindwort.de</a></div>
+<div class="display">
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</div>
+<p class="opening">&nbsp;Öffnungszeiten</p>
+<div class="opening_hours">
+<div><p>Mo.</p><p>09:00-20:00</p></div>
+<div><p>Di.</p><p>09:00-20:00</p></div>
+<div><p>Mi.</p><p>09:00-20:00</p></div>
+<div><p>Do.</p><p>09:00-20:00</p></div>
+<div><p>Fr.</p><p>09:00-20:00</p></div>
+<div><p>Sa.</p><p>09:00-20:00</p></div>
+<div><p>So.</p><p>Geschlossen</p></div>
+</div>
+</div>
+<div class="col-md-5">
+<p class="filialen">Bergstraße 77</p>
+<p>23669 Timmendorfer Strand</p>
+<p>Telefon: (04503) 88 90 30</p>
+<p>Fax: (04503) 88 90 39</p>
+<div class="email"><a href="mailto:apo3@klindwort.de">apo1@klindwort.de</a></div>
+<div class="display">
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+</div>
+<p class="opening">&nbsp;Öffnungszeiten</p>
+<div class="opening_hours">
+<div><p>Mo.</p><p>08:30-13:00, 15:00-18:00</p></div>
+<div><p>Di.</p><p>08:30-13:00, 15:00-18:00</p></div>
+<div><p>Mi.</p><p>08:30-13:00</p></div>
+<div><p>Do.</p><p>08:30-13:00, 15:00-18:00</p></div>
+<div><p>Fr.</p><p>08:30-13:00, 15:00-18:00</p></div>
+<div><p>Sa.</p><p>08:30-13:00</p></div>
+<div><p>So.</p><p>Geschlossen</p></div>
+</div>
+</div>
+</div>

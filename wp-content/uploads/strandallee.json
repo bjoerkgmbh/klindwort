@@ -1,0 +1,235 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "94A",
+            "short_name" : "94A",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Strandallee",
+            "short_name" : "Strandallee",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Timmendorfer Strand",
+            "short_name" : "Timmendorfer Strand",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Ostholstein",
+            "short_name" : "Ostholstein",
+            "types" : [ "administrative_area_level_3", "political" ]
+         },
+         {
+            "long_name" : "Schleswig-Holstein",
+            "short_name" : "SH",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Deutschland",
+            "short_name" : "DE",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "23669",
+            "short_name" : "23669",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003eStrandallee 94A\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e23669\u003c/span\u003e \u003cspan class=\"locality\"\u003eTimmendorfer Strand\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eDeutschland\u003c/span\u003e",
+      "formatted_address" : "Strandallee 94A, 23669 Timmendorfer Strand, Deutschland",
+      "formatted_phone_number" : "04503 889040",
+      "geometry" : {
+         "location" : {
+            "lat" : 53.99721,
+            "lng" : 10.78303
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 53.9986347802915,
+               "lng" : 10.7844769802915
+            },
+            "southwest" : {
+               "lat" : 53.9959368197085,
+               "lng" : 10.7817790197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "8eb450e8770d61a4b974b2acdb7e7929fd4a9949",
+      "international_phone_number" : "+49 4503 889040",
+      "name" : "Klindwort Apotheke am Strand",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0830"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Montag: 08:30–18:30 Uhr",
+            "Dienstag: 08:30–18:30 Uhr",
+            "Mittwoch: 08:30–18:30 Uhr",
+            "Donnerstag: 08:30–18:30 Uhr",
+            "Freitag: 08:30–18:30 Uhr",
+            "Samstag: 08:30–14:00 Uhr",
+            "Sonntag: Geschlossen"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 2988,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105968925385401017337/photos\"\u003eChristel Dönitz\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAXklWsnxkdJzKdvRTf8Xuh5VQS7cBqTel7JgoAxH7d3QfRyqYP78O02Vzpd6qMaXm-2sYJFj8-STj18Ihsf70dr4UPma3YNO2jEfUW8DsfDyxICm9ei6MiJGRDY2qEjVtEhADqoj6ljZIL4jBjPd5uOZNGhQa4s091PnJEvOi-MBbts3ySzW0Ww",
+            "width" : 5312
+         },
+         {
+            "height" : 2268,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/106871514506870256578/photos\"\u003eDaniel Preusche\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAePecxNtVDhZeyU312h8AqqeID4FBjpilzcict1-UYhK1M9EpVFRHq7p5mNZHBiZpjho-6hoAhua3m_1O3LP99RVnQyas9Tp9jhyMQe_jDnk4NuB6q5BgGAmyfgpzRfMiEhDHVUO2_q51Y8FTPSDDYzhXGhRGOQMkKoR8BtwNvubc0yGMlbP34Q",
+            "width" : 4032
+         },
+         {
+            "height" : 2268,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/106871514506870256578/photos\"\u003eDaniel Preusche\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAu4WIrVl2rd6Tl1CeMqHSJhHeBO-K8FGJ129KAXjpV90nMbSdsD8swI_-GuULlnxZzI7ERlFlVs6XYITWLUTd-nNGJgXB0wLy3RmORSI7mXIhFTr48Se2utaFy7jggneWEhARGFHKgLnyaZYZUxO9NJtyGhS0P1nIvmghO8d3LuV6Yxf6THTSrA",
+            "width" : 4032
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105745426144906393106/photos\"\u003eG. RŰ\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAsDrh4wOs_7rVNhkvBJH_u0uUq00qwqMkJcYqKsR45qQRfmxEosrxYC251yoS5ciUMznF5jIW5DizchQd-Q3rQHKx8a9MuPSdFwflwAOssQjgEjprHbNvnUKZsMQGuFAOEhCBQ-To5yp93MKxrH28gCEpGhQVCLOacAzsYCVft1dRC5G8ME7itQ",
+            "width" : 3264
+         }
+      ],
+      "place_id" : "ChIJA-r_0lR0skcRVmXGsIrr9Do",
+      "rating" : 4.2,
+      "reference" : "CmRRAAAA1HsuetxRFPkKiUchqrTF_kPt5taerkT4J4DRby23GsL_Y4fUeVwqAnPuK_WhrLVksMxrvRl4aP18fxHwqpXh1eAkMFCmd2O4x7f3MNTxwevUzkp_PMPNaDdmMH1_xNIYEhA8b8Hj2vczfH6GMUfScH_9GhRd1o_Rx-fcX_h65JFMxKZM1NjiFw",
+      "reviews" : [
+         {
+            "author_name" : "Christel Dönitz",
+            "author_url" : "https://www.google.com/maps/contrib/105968925385401017337/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-Jtk_7N7UdW0/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePZKSiQS1PnyRkgW6HDcvj0NMtrmqw/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "vor 2 Monaten",
+            "text" : "Eine Apotheke in einem Badeort muss sich auf besondere Anforderungen einstellen.\nDie Angestellten sind freundlich und versuchen zu helfen.",
+            "time" : 1500664769
+         },
+         {
+            "author_name" : "Lea Kaplan",
+            "author_url" : "https://www.google.com/maps/contrib/105702608689441961252/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-SNVb6rKsvZY/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePaNdyVvfCsROU62qYzFQ6h3L1BZIg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 3 Wochen",
+            "text" : "Sehr freundliche, kompetente und hilfsbereite Mitarbeiter. ",
+            "time" : 1503958287
+         },
+         {
+            "author_name" : "Franzi Breitsprecher",
+            "author_url" : "https://www.google.com/maps/contrib/115515828713984650394/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-1CtMvOi8Ivs/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePbVNZR4UZmWIzCv9YC4GmkKWLvoRg/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+            "rating" : 3,
+            "relative_time_description" : "vor einer Woche",
+            "text" : "",
+            "time" : 1505080421
+         },
+         {
+            "author_name" : "Steffi E.",
+            "author_url" : "https://www.google.com/maps/contrib/109611897804560485316/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-Ivz1vfNOEno/AAAAAAAAAAI/AAAAAAAAACU/R4tHz_x9glk/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "vor einem Monat",
+            "text" : "",
+            "time" : 1502041666
+         },
+         {
+            "author_name" : "Thorsten Nöhren",
+            "author_url" : "https://www.google.com/maps/contrib/103272901794966974103/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh4.googleusercontent.com/-m7dOcoH3HLc/AAAAAAAAAAI/AAAAAAAAFos/lvzcMdckenU/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 4 Monaten",
+            "text" : "",
+            "time" : 1494356722
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "pharmacy", "health", "store", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=4248279329421026646",
+      "utc_offset" : 120,
+      "vicinity" : "Strandallee 94A, Timmendorfer Strand",
+      "website" : "http://www.klindwort.de/"
+   },
+   "status" : "OK"
+}

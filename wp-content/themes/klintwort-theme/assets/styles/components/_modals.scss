@@ -1,0 +1,19 @@
+.modal-dialog {
+  height: 100vh;
+  max-width: 1000px;
+  .modal-content {
+    margin-top: 12%;
+    .modal-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      .modal-title {
+        width: 100%;
+      }
+      .close {
+        color: #c31824;
+      }
+    }
+  }
+}

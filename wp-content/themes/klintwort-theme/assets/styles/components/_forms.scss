@@ -1,0 +1,310 @@
+// Search form
+.search-form {
+  margin-bottom: 2px;
+  @extend .form-inline;
+}
+
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.wpcf7-form .row>[class*=col-]>.row:first-child,
+.wpcf7-form>.row {
+  margin-bottom: 15px;
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  border: 2px solid #398f14;
+  font-weight: normal;
+}
+
+input.wpcf7-form-control,
+select {
+  color: $dark-grey!important;
+}
+
+input.wpcf7-form-control,
+select {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: $light-grey;
+  padding: 0.8em 1em;
+  color: $dark-grey!important;
+}
+
+.wpcf7-form-control.wpcf7-textarea {
+  background-color: $light-grey;
+  width: 100%;
+  border: none;
+  padding: 0.5em 1em;
+  max-height: 248px;
+  margin-bottom: 10px;
+}
+
+.wpcf7 .small {
+  margin: 33px 0;
+  color: grey;
+  font-style: italic;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.wpcf7 p:last-of-type {
+  margin: 0;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  background-color: $brand-primary;
+  color: white!important;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 304px;
+}
+
+.wpcf7-form {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wpcf7-checkbox label span {
+  color: $dark-grey!important;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: none;
+}
+
+.wpcf7-checkbox label span:before {
+  content: "";
+  background-color: $light-grey;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  color: $brand-primary!important;
+  font-size: 32px;
+  line-height: 20px;
+}
+
+input[type=checkbox]:checked~span:before {
+  content: "\2713";
+}
+
+.wpcf7-radio label span:before {
+  content: "";
+  background-color: $light-grey;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: sub;
+  border-radius: 50%;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: $brand-primary!important;
+  font-size: 32px;
+  line-height: 20px;
+}
+
+input[type=radio]:checked~span:before {
+  background-color: $brand-primary;
+}
+
+.wpcf7-radio label {
+  margin-right: 30px;
+}
+
+span.wpcf7-list-item {
+  margin: 0;
+}
+
+.wpcf7 hr {
+  margin: 50px 0;
+  display: block;
+  color: $dark-grey;
+}
+
+.radio-508 .last input[type="radio"]:checked~.modalDialog {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wpcf7 .text {
+  padding: 0;
+}
+
+button.btn.btn-default.add-button:hover {
+  background-color: grey;
+  color: white!important;
+}
+
+.row.hidden.rezept.order-buttons {
+  >.col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.ap-form-wrapper.ap-front-form-styler {
+  margin-top: 25px !important;
+  border: 1px solid transparent !important;
+  background-color: white !important;
+  padding-left: 0 !important;
+  .ap-pro-front-form-wrapper {
+    padding-bottom: 50px;
+  }
+  h2 {
+    display: none;
+  }
+  .ap-pro-form-field-wrapper {
+    margin-bottom: 30px !important;
+    .ap-pro-form-field {
+      input,
+      textarea {
+        border: 1px solid transparent !important;
+        border-radius: 0 !important;
+        background-color: #f1f1f1 !important;
+        padding: .8em 1em !important;
+        outline: none !important;
+        color: #707376 !important;
+        margin: 0 !important;
+        line-height: inherit !important;
+        box-shadow: none !important;
+      }
+    }
+    &:nth-child(4) {
+      .ap-pro-form-field {
+        height: 147.59px !important;
+        textarea {
+          height: 147.59px !important;
+          resize: none;
+        }
+      }
+    }
+    & input[type="submit"] {
+      background-color: #c31824;
+      color: #fff!important;
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2);
+      width: 304px;
+      border-radius: 0;
+      border: 1px solid transparent;
+      padding: .8em 1em;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+  .ap-pro-form-field-wrapper:nth-child(1) {
+    width: 48%;
+    display: inline-block;
+    margin-right: 29px;
+  }
+  .ap-pro-form-field-wrapper:nth-child(2) {
+    width: 48%;
+    display: inline-block;
+  }
+  .ap-pro-form-success-msg {
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    color: darkgreen;
+  }
+}
+
+span.wpcf7-not-valid-tip {
+  display: inline !important;
+}
+
+div.wpcf7-validation-errors {
+  border: 2px solid #c31824;
+  padding: 15px;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+form {
+  width: 100%;
+  .form-group {
+    display: flex !important;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    align-items: flex-end;
+    label {
+      padding-right: 15px;
+    }
+    #date {
+      height: 40px;
+      width: 200px !important;
+    }
+    #address {
+      height: 40px;
+      width: 470px!important;
+      overflow-y: auto;
+      padding-right: 40px;
+    }
+  }
+  button {
+    height: 40px;
+    width: 100%;
+    margin-top: 5px !important;
+  }
+  .ap-input:hover~.ap-input-icon svg,
+  .ap-input:focus~.ap-input-icon svg,
+  .ap-input-icon:hover svg {
+    fill: #c31824;
+  }
+  .ap-suggestion {
+    background-color: white;
+    &:hover {
+      background-color: #c31824;
+      .ap-name {
+        color: white;
+      }
+      .ap-address {
+        color: white;
+      }
+      .ap-suggestion-icon svg {
+        fill: white;
+      }
+    }
+    & em {
+      font-weight: 700;
+    }
+  }
+  .ap-cursor .ap-suggestion-icon svg {
+    fill: #c31824;
+  }
+  .ap-name {
+    color: #c31824;
+  }
+  .ap-address {
+    color: #c31824;
+  }
+  .ap-suggestion-icon svg {
+    fill: #c31824;
+  }
+  .ap-suggestion:hover {
+    color: #c31824;
+  }
+  .ap-input-icon svg {
+    fill: #c31824;
+    right: 10px;
+  }
+}

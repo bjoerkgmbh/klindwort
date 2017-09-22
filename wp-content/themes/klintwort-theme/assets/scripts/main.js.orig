@@ -1,0 +1,531 @@
+/* ========================================================================
+* DOM-based Routing
+* Based on http://goo.gl/EUTi53 by Paul Irish
+*
+* Only fires on body classes that match. If a body class contains a dash,
+* replace the dash with an underscore when adding it to the object below.
+*
+* .noConflict()
+* The routing is enclosed within an anonymous function so that you can
+* always reference jQuery with $, even when in .noConflict() mode.
+* ======================================================================== */
+
+(function($) {
+
+  // Use this variable to set up the common and page specific functions. If you
+  // rename this variable, you will also need to rename the namespace below.
+  var Sage = {
+    // All pages
+    'common': {
+      init: function() {
+        // JavaScript to be fired on all pages
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+        // This handels Top-Bar Mechanix
+        function toggleTheTopBar() {
+          $('.top-bar a').on('click', function(e) {
+
+            e.preventDefault();
+            //$('.top-bar-content').toggleClass('active-bar');
+            myTarget = $(this).attr('class');
+            $('.open').slideToggle('fast');
+            $('.open').removeClass('open');
+
+            $('#' + myTarget + '').stop(true, true).slideToggle('fast');
+            $('#' + myTarget + '').toggleClass('hidden open');
+          });
+
+          $('.top-bar-content--close').on('click', function() {
+            $(this).parent('.open').slideUp('fast');
+            $(this).parent('.open').removeClass('open');
+          });
+
+        }
+        toggleTheTopBar();
+
+        // This handles mobile _NAv mechanixx
+        function doTheMobileNav() {
+          // On Plus Click Toggle Submenu in Nav
+          function toggleMobileSubmenu() {
+
+            $('#menu-top-menu > .menu-item-has-children > a > i.fa').on('click', function(e) {
+              e.preventDefault();
+              $(this).toggleClass('clicked');
+              $(this).parent().parent().find('.sub-menu').first().toggleClass('clicked');
+              $(this).text(function(i, v){
+                return v === '+' ? '–' : '+';
+              });
+              var theMobileHeight = $('#menu-top-menu').height();
+              $('#menu-top-menu').attr('data-height',theMobileHeight );
+            });
+          }
+
+          if ($(window).width() <= 768 ) {
+
+
+            $('#menu-top-menu > .menu-item-has-children > a').each(function(){
+              $(this).append('<i class="fa">+</i>');
+            });
+
+            toggleMobileSubmenu();
+
+            var theMobileHeight = $('#menu-top-menu').height();
+            $('#menu-top-menu').attr('data-height',theMobileHeight );
+            theMobileHeight = $('#menu-top-menu').attr('data-height');
+
+            $('#menu-top-menu').css('top', -theMobileHeight + 5 );
+
+            $('#burger-check').toggle(function() {
+              $( "#menu-top-menu" ).animate({
+                top: 0
+              }, 500, function() {
+                // Animation complete.
+              });
+            }, function() {
+              theMobileHeight = $('#menu-top-menu').attr('data-height');
+              $( "#menu-top-menu" ).animate({
+                top: - theMobileHeight + 5
+              }, 500, function() {
+
+              });
+            });
+
+
+          }
+        }
+        doTheMobileNav();
+
+        // I really dont like empty <p>'s
+        function removeEmptyP() {
+          $('p').each(function () {
+            var $this = $(this);
+            if ($this.html().replace(/\s|&nbsp;/g, '').length === 0 || $this.html().replace(/\s|<strong>&nbsp;<\/strong>/g, '').length === 0) {
+              $this.remove();
+            }
+          });
+          console.log('Executed removeEmptyP.');
+        }
+        removeEmptyP();
+
+        // Sticky Nav
+        if ($(window).width() > 768 ) {
+          $(window).scroll(function() {
+            if ( window.scrollY >= 250 ) {
+              $('.nav-primary').addClass('sticky');
+            } else {
+              $('.nav-primary').removeClass('sticky');
+            }
+          });
+        }
+
+        // Add Info to Location Sub Menu
+        function addInfoTOLocs() {
+          $('.menu-item-object-locations a').each(function(){
+            $(this).append('<div class="info">Info|Kontakt|Team</div>');
+          });
+          $('.location-hook.menu-item-has-children > a').each(function(){
+            $(this).append('<i class="fa">+</i>');
+          });
+
+          // On Plus Click Toggle Submenu in Nav
+          function toggleSubmenu() {
+            $('#menu-top-menu .sub-menu .location-hook > a').on('click', function(e) {
+              e.preventDefault();
+              $(this).parent().toggleClass('clicked');
+              $(this).parent().parent().find('.sub-menu').toggleClass('clicked');
+              $(this).find('.fa').text(function(i, v){
+                return v === '+' ? '–' : '+';
+              });
+              setTimeout(function() {
+                var theMobileHeights = $('#menu-top-menu').height();
+                $('#menu-top-menu').attr('data-height',theMobileHeights );
+                console.log(theMobileHeights);
+              }, 500);
+
+            });
+          }
+          toggleSubmenu();
+
+        }
+        addInfoTOLocs();
+
+        // Add Row-Botton
+        function addRowButton() {
+          var click_count = 1;
+          $('.add-button').on('click', function(e) {
+            e.preventDefault();
+            target1 = $(this).parents().eq(3).prev();
+            target2 = $(this).parents().eq(3);
+            var clone = target1.clone();
+            clone.insertBefore(target2);
+
+            clone.find('input').each(function(){
+              var old_name = $(this).attr('name');
+              var old_name_clean = old_name.replace(/[0-9]/g, '');
+              var new_name = $(this).attr('name', old_name_clean + click_count);
+              $(this).removeAttr('value');
+              //var old_name = $(this).find('input').attr('name');
+              //var new_name = $(this).find('input').attr('name', old_name + 1);
+            });
+            click_count++;
+            //var old_name_article = clone.find('.artikel>input').attr('name');
+            //var new_name_article = clone.find('.artikel>input').attr('name', old_name + 1);
+            //$(target1).each()
+          });
+        }
+        addRowButton();
+
+        // This adds a modal for gebührenpflicht question dialog
+        function addModalToCheckbox() {
+          $('.radio-508 label').append('<div id="modaal-id-10" class="modalDialog"> <div> <div class="row"> <div class="col-md-12"> <h2>Gebührenbefreiung</h2> </div> </div> <div class="row"> <div class="col-md-12"> <p>Sie haben im Formular die Option »Gebührenbefreit« gewählt. Bitte bestätigen Sie, dass Sie von der gesetzlichen Zuzahlung auf Rezepte befreit und im Besitz eines gültigen Befreiungsausweises sind.</p> </div> </div> <div class="sep-30"></div> <div class="row"> <div class="col-md-12"> <a href="#close" title="Close" class="btn btn-default red pull-left close">Verstanden</a> </div> </div> </div> </div>');
+          $('.close').on('click', function() {
+            $('.modalDialog').css({
+              'opacity':0,
+              'pointer-events': 'none'
+            });
+          });
+        }
+        addModalToCheckbox();
+
+        // Get Open Hours and print them
+        function getOpenHours() {
+          var opening_hours_div = $('#ajax-panel');
+          if (places_id !== '') {
+            $.ajax({
+              type: 'GET',
+              url: 'https://maps.googleapis.com/maps/api/place/details/json',
+              datatype: 'jsonp',
+              data: {
+                placeid: places_id,
+                key: 'AIzaSyBg8HI6sH1Rxyhn1Mno_hhgDawuF1KAfq0',
+                language: 'de'
+              },
+              beforeSend: function() {
+                // this is where we append a loading image
+                $('#ajax-panel').html('<div class="loading">Laden...</div>');
+              },
+              success: function(data) {
+                // successful request; do something with the data
+                $('#ajax-panel').empty();
+                //console.log(data);
+                for (var i = 0; i < data.result.opening_hours.weekday_text.length; i++) {
+
+                  // Create DIV element and append to opening_hours_div
+                  var content = document.createElement('div');
+                  content.innerHTML = data.result.opening_hours.weekday_text[i];
+                  opening_hours_div.append(content);
+                }
+              },
+              error: function() {
+                // failed request; give feedback to user
+                $('#ajax-panel').html('<p class="error"><strong>Oops!</strong> Try that again in a few moments.</p>');
+              }
+            });
+          } else {
+            $('#ajax-panel').html('<p class="error"><strong>Bitte eine places_id für diesen Ort festlegen!.</p>');
+          }
+        }
+
+        //getOpenHours();
+
+        // This checks if there is an Image left or right to the .text Container and sets the Padding accordingly
+        function checkTextForImages() {
+          $('.text').each(function() {
+            if ($(this).parent().next().find('img').length > 0) {
+              $(this).css('padding-right', '0');
+            }
+            if ($(this).parent().prev().find('img').length > 0) {
+              $(this).css('padding-left', '0');
+            }
+          });
+        }
+        checkTextForImages();
+
+        // This sets the Height of the Facebook Inner container
+        function setFacebookInnerHeight() {
+          theHeight = $('.face-book-wrapper').height() - 10;
+          $('.face-book-wrapper .text').css('height', theHeight);
+          console.log('Executed setFacebookInnerHeight with height='+theHeight);
+        }
+        setFacebookInnerHeight();
+
+        // This handels the Font-Size Changer
+        function changeFontSizeOnClick() {
+          $('.add-font-size span').on('click', function() {
+            var new_font_size = $(this).attr('data-size');
+            $('body').css('font-size', new_font_size+'px');
+          });
+        }
+        changeFontSizeOnClick();
+
+        // Bestellung Button Toggle
+        function toggleButtonsOnBestellungsPage() {
+
+          $('.rezept-frei').on('click', function(){
+            console.log('rezept-frei clicked');
+            $('#wpcf7-f223-p261-o2').parent().fadeOut();
+            $('#wpcf7-f223-p80-o3').parent().fadeOut();
+            $('.rezept').fadeOut('slow');
+            $('#wpcf7-f220-p261-o1').fadeIn();
+            $('.active').removeClass('active');
+            $(this).toggleClass('active');
+
+          });
+
+          $('.rezept-pflicht').on('click', function(){
+            console.log('rezept-pflicht clicked');
+            $('.rezept').fadeIn('slow', function() {
+              $('#wpcf7-f220-p261-o1').fadeOut('slow');
+              $('#wpcf7-f223-p261-o2').parent().fadeIn();
+              $('#wpcf7-f222-p261-o3').parent().fadeOut();
+            });
+
+            $('.active').removeClass('active');
+            $('.rezept-pflicht-kasse').addClass('active');
+            $('.form-manuell').addClass('active');
+            $('.form-manuell').click(function(e){
+              e.preventDefault();
+            });
+
+            $(this).toggleClass('active');
+          });
+
+          $('.rezept-pflicht-kasse').on('click', function(){
+            console.log('.rezept-pflicht-kasse clicked');
+            $('#wpcf7-f223-p261-o2').parent().fadeIn('slow', function() {
+              $('#wpcf7-f222-p261-o3').parent().fadeOut();
+            });
+            $('.rezept .active').removeClass('active');
+            $(this).toggleClass('active');
+          });
+
+          $('.rezept-pflicht-privat').on('click', function(){
+            console.log('.rezept-pflicht-privat clicked');
+            $('#wpcf7-f223-p261-o2').parent().fadeOut('slow', function() {
+              $('#wpcf7-f222-p261-o3').parent().fadeIn();
+            });
+            $('.rezept .active').removeClass('active');
+            $('.active1').removeClass('active1');
+            $(this).toggleClass('active');
+          });
+        }
+        toggleButtonsOnBestellungsPage();
+
+        // Gmaps WORK IN PROGRESS!!!!!
+        function initialize_gmaps() {
+
+          var center = new google.maps.LatLng(53.869382, 10.6549405);
+
+          $('#gmap-top-bar').css('min-height', '360px');
+          var map = new google.maps.Map(document.getElementById('gmap-top-bar'), {
+            zoom: 12,
+            center: center,
+            key: 'AIzaSyBg8HI6sH1Rxyhn1Mno_hhgDawuF1KAfq0',
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+              style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+              position: google.maps.ControlPosition.TOP_CENTER
+            },
+            zoomControl: true,
+            zoomControlOptions: {
+              position: google.maps.ControlPosition.LEFT_CENTER
+            },
+            scaleControl: true,
+            streetViewControl: true,
+            streetViewControlOptions: {
+              position: google.maps.ControlPosition.LEFT_TOP
+            }
+          });
+
+          var bounds = new google.maps.LatLngBounds();
+
+<<<<<<< HEAD
+          // var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
+          //   this.setZoom(12);
+          //   google.maps.event.removeListener(boundsListener);
+          // });
+=======
+          function setMyMArker() {
+>>>>>>> baac69d... apo search bar now working
+
+            $.each(apo_coords, function(key, data) {
+              var marker_position = new google.maps.LatLng(data.lat, data.lng);
+
+
+              // Creating a marker and putting it on the map
+              var marker = new google.maps.Marker({
+                position: marker_position,
+                map: map,
+                zoom: 12,
+                title: data.title,
+                label: {
+                  //text: labels[labelIndex++ % labels.length],
+                  text: data.title,
+                  color: '#fff',
+                  fontWeight: 'bold',
+                }
+              });
+              bounds.extend(marker_position);
+              console.log(marker_position);
+            });
+            map.fitBounds(bounds);
+          }
+          setMyMArker();
+
+          setTimeout(function() {
+            google.maps.event.trigger(map, 'resize');
+          }, 1000);
+          $('.top-bar a').on('click',  function() {
+            google.maps.event.trigger(map, 'resize');
+          } );
+          $(window).resize(function() {
+            google.maps.event.trigger(map, 'resize');
+          });
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize_gmaps);
+
+
+        function catchForm() {
+
+          //process the form
+          $('#apo_seach_submit').submit(function(event) {
+
+            // get the form data
+            // there are many ways to get this data using jQuery (you can use the class or id also)
+            // var formData = $("form :input").each(function(){
+            //   var input = $(this).val(); // This is the jquery object of the input, do what you will
+            // });
+
+            formData = 0;
+            str_adress = $('#apo_adress').val();
+            var geocoder = new google.maps.Geocoder();
+
+            geocoder.geocode( { 'address': str_adress}, function(results, status) {
+
+              if (status == google.maps.GeocoderStatus.OK) {
+                formData_latitude = results[0].geometry.location.lat();
+                formData_longitude = results[0].geometry.location.lng();
+
+                formData_apo_date = $('#apo_date').val();
+
+                // process the form
+                $.ajax({
+                  type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+                  url         : '/wp-content/themes/klintwort-theme/lib/search_apo.php', // the url where we want to POST
+                  data        : {
+                    'apo_date': formData_apo_date,
+                    'apo_adress_latitude': formData_latitude,
+                    'apo_adress_longitude': formData_longitude
+                  }, // our data object
+                  dataType    : 'json', // what type of data do we expect back from the server
+                  encode      : true,
+                  success     : function(response) {
+                    $('#notfall_apos').html(response.data);
+                    console.log(response.apo_coords);
+                    apo_coords = 0;
+                    apo_coords = response.apo_coords;
+                    initialize_gmaps();
+                  }
+                })
+                // using the done promise callback
+                .done(function(data) {
+
+                  // log data to the console so we can see
+                  //console.log(data);
+
+                  // here we will handle errors and validation messages
+                });
+
+                // stop the form from submitting the normal way and refreshing the page
+              }
+
+            });
+            event.preventDefault();
+          });
+        }
+        catchForm();
+
+      }
+    },
+    // Home page
+    'home': {
+      init: function() {
+        // JavaScript to be fired on the home page
+      },
+      finalize: function() {
+        // JavaScript to be fired on the home page, after the init JS
+
+        function getFacebookFeed() {
+
+          var token = "EAAHg9P2NhQ0BAOoIpxhciJ4mPjIpJf8BsFmKTwCVLhdd7NzNSGRxNRgQmqkqLeeJ67pcCgoLGDIRQjErvMpk8qU3FZBJ3ZAAZA2U2YWXz1U3cVHGTGzN1a1lrUI4sfqtyfTiYVtzmXet7Fn14we2x1HWq3gpugZD";
+
+          // This 'user_id' comes from the Database
+          var user_id = 'klindwortapotheken';
+
+          FB.api('/'+ user_id +'/posts', function(response){
+            //console.log(response);
+
+            $.each(response.data, function(i, item) {
+
+              $('#facebookPosts').empty();
+              if (typeof item.picture === 'undefined') {
+                item.picture = 'http://placehold.it/107x76?text=Kein+Bild';
+              }
+              $('#facebookPosts').parent().append('<div class="row whitebg"><div class="col-sm-4"><img src="'+item.picture+'" alt=""></div><div class="col-sm-8"><strong>'+item.from.name+'</strong><p>'+item.message+'</p></div></div>');
+            });
+
+          }, {access_token: token, limit: 5});
+          console.log('Executed getFacebookFeed.');
+        }
+        getFacebookFeed();
+
+      }
+    },
+    // About us page, note the change from about-us to about_us.
+    'online-bestellung': {
+      init: function() {
+        // JavaScript to be fired on the bestellung page
+
+
+
+      }
+    }
+  };
+
+  // The routing fires all common scripts, followed by the page specific scripts.
+  // Add additional events for more control over timing e.g. a finalize event
+  var UTIL = {
+    fire: function(func, funcname, args) {
+      var fire;
+      var namespace = Sage;
+      funcname = (funcname === undefined) ? 'init' : funcname;
+      fire = func !== '';
+      fire = fire && namespace[func];
+      fire = fire && typeof namespace[func][funcname] === 'function';
+
+      if (fire) {
+        namespace[func][funcname](args);
+      }
+    },
+    loadEvents: function() {
+      // Fire common init JS
+      UTIL.fire('common');
+
+      // Fire page-specific init JS, and then finalize JS
+      $.each(document.body.className.replace(/-/g, '_').split(/\s+/), function(i, classnm) {
+        UTIL.fire(classnm);
+        UTIL.fire(classnm, 'finalize');
+      });
+
+      // Fire common finalize JS
+      UTIL.fire('common', 'finalize');
+    }
+  };
+
+  // Load Events
+  $(document).ready(UTIL.loadEvents);
+
+})(jQuery); // Fully reference jQuery after this point.

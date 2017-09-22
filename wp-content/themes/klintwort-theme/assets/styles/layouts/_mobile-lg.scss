@@ -1,0 +1,182 @@
+@media (max-width: 1200px) {
+  #apotheken-notdienst {
+    form {
+      .col-md-3 {
+        label {
+          display: none;
+        }
+      }
+      .col-md-6 {
+        #address {
+          width: 370px!important;
+        }
+        .ap-input-icon svg {
+          right: 0 !important;
+        }
+      }
+    }
+  }
+  .sidebar .col-md-12>img {
+    position: relative;
+    min-width: 100%;
+    height: auto;
+  }
+  .content-wrapper.face-book-wrapper {
+    margin-bottom: 30px;
+  }
+  label.foto-upload {
+    width: 45%;
+    margin-left: 15px;
+    margin-top: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .modal-image-holder img {
+    float: right;
+  }
+  .sidebar-primary article.pull-left {
+    max-width: calc(75% - 30px);
+  }
+  .above-top-nav {
+    .col-lg-8.col-md-7 {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      div {
+        a {
+          margin-right: 20px;
+          img {
+            margin-right: 30px;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .carousel-inner {
+    height: 400px;
+    .carousel-item {
+      img {
+        height: 400px;
+        width: 100%;
+      }
+    }
+  }
+  #pharmacyOpenTimes {
+    .filialen {
+      height: 50px;
+    }
+    .display {
+      width: 100%;
+    }
+  }
+  .ap-form-wrapper.ap-front-form-styler .ap-pro-form-field-wrapper:first-child {
+    margin-right: 23px;
+  }
+  .shopbox {
+    width: 270px !important;
+    margin-right: 30px !important;
+  }
+  .shopbuttonbig {
+    padding: 15px !important;
+    .shopbuttonbigheadline {
+      line-height: 16px !important;
+      margin-bottom: 25px !important;
+    }
+    .shopbuttonbigtext {
+      line-height: 20px !important;
+    }
+  }
+  .order-buttons>div button {
+    width: 45%;
+  }
+  #ajax-panel {
+    padding-bottom: 15px !important;
+  }
+  .filiale-image img {
+    min-height: 427px !important;
+    width: 100%;
+  }
+  #mitarbeiterTippHome {
+    margin-bottom: 30px;
+    .content-wrapper {
+      height: auto;
+      .row {
+        .col-xl-6.col-lg-8.col-md-8.col-sm-12 {
+          height: auto !important;
+        }
+        .col-xl-6.col-lg-4.col-md-4.col-sm-12 {
+          #Mitarbeiter_image {
+            .text {
+              padding-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .filiale {
+    padding: 10px 15px 5px 15px;
+  }
+  .content-wrapper.hero-unit {
+    height: auto;
+  }
+  .content-wrapper.red {
+    height: auto;
+    margin-top: 30px;
+    .row {
+      .col-md-12 {
+        .text {
+          padding: 20px 40px;
+          h3 {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+  .col-xl-6.col-lg-12.col-md-12.col-sm-12 {
+    h2 {
+      margin-top: 10px !important;
+      margin-bottom: 25px !important;
+    }
+    img {
+      height: auto;
+      margin-bottom: 30px;
+    }
+  }
+  .content-wrapper {
+    height: auto;
+  }
+  #videos_home,
+  #whatsapp_home,
+  #Mitarbeiter_image {
+    .text {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wpcf7 .small {
+    width: 88%;
+    margin-left: 33px !important;
+  }
+  .modalDialog>div {
+    width: 85%;
+    position: relative;
+    margin: 5% auto;
+    padding: 2em;
+    border-radius: 0;
+    background: #fff;
+  }
+  .modal-image-holder img {
+    float: right;
+  }
+}

@@ -1,0 +1,242 @@
+@media (max-width: 991px) {
+  .text h3 {
+    margin-top: 10px;
+  }
+  .text {
+    padding: 20px 40px;
+  }
+  .col-xl-6.col-lg-5.col-md-12.col-sm-12 {
+    .text {
+      padding: 0 !important;
+    }
+  }
+  .hero-unit {
+    .single-news {
+      .col-xl-6.col-lg-5.col-md-12.col-sm-12 {
+        .text {
+          padding: 20px 40px !important;
+        }
+      }
+    }
+  }
+  .content-wrapper {
+    height: auto;
+  }
+  .content-wrapper.red {
+    height: auto !important;
+  }
+  .top-bar-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+  }
+  .content-wrapper.face-book-wrapper {
+    margin-bottom: 30px;
+  }
+  .sep-30.under-logo {
+    display: none;
+  }
+  .col-md-3 {
+    .content-wrapper,
+    .content-wrapper-right {
+      .text {
+        .row {
+          .col-md-12 {
+            height: 220px !important;
+            >div {
+              padding-bottom: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #mitarbeiterTippHome {
+    margin-bottom: 30px;
+  }
+  #mitarbeiterTippHome {
+    .content-wrapper {
+      .row {
+        div:first-child {
+          height: auto !important;
+        }
+      }
+    }
+  }
+  .col-md-6 {
+    .content-wrapper {
+      .row {
+        .col-md-6:first-child,
+        .col-md-6:last-child {
+          height: 230px !important;
+        }
+      }
+    }
+  }
+  .shopbox {
+    width: 230px!important;
+    margin-right: 20px!important;
+  }
+  .row.order-buttons {
+    .col-md-12 {
+      .btn.btn-default {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+      }
+    }
+  }
+  label.foto-upload {
+    width: 94%;
+  }
+  .search-form a.btn-default.red.search-submit,
+  a.btn.btn-default.red {
+    padding: 10px 15px;
+  }
+  #menu-footer-menu {
+    justify-content: initial;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .nav-primary .nav {
+    display: none;
+  }
+  .nav-primary .nav.showMenu {
+    display: block;
+  }
+  #menu-top-menu i.icon {
+    padding-top: 18px;
+  }
+  .ap-form-wrapper.ap-front-form-styler {
+    .ap-pro-front-form-wrapper {
+      form {
+        .ap-pro-form-field-wrapper:nth-child(1) {
+          width: 100%;
+          margin-right: 0;
+        }
+        .ap-pro-form-field-wrapper:nth-child(2) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wpcf7 .small {
+    margin-left: 0 !important;
+    margin-top: 15px !important;
+  }
+  .carousel-inner {
+    height: 400px;
+    & .carousel-item img {
+      height: 400px;
+    }
+  }
+  .top-bar-content.toggled>.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #menu-top-menu {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    z-index: 20;
+    height: 680px;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .nav-primary .nav>li:last-child {
+    margin-right: 0;
+  }
+  .nav-primary .nav>li {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    & .icon {
+      color: white;
+      z-index: 50000;
+      padding-right: 0 !important;
+    }
+    & a {
+      text-align: center;
+      padding: 15px 5px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      .icon {
+        padding-top: 3px !important;
+        &:focus {
+          color: black !important;
+        }
+      }
+    }
+  }
+  #menu-top-menu>li>.sub-menu {
+    position: relative;
+    background-color: darkgrey;
+  }
+  #menu-top-menu>li>.sub-menu .info {
+    font-weight: 100;
+  }
+  #menu-top-menu>li>.sub-menu li a {
+    letter-spacing: 1px;
+    font-size: .9rem;
+    text-transform: uppercase;
+  }
+  #menu-top-menu>li>.sub-menu .location-hook .icon {
+    position: absolute;
+    top: initial;
+    bottom: initial;
+    padding-top: 5px;
+    right: 0;
+    color: white;
+  }
+  .sidebar .col-md-12>img {
+    position: relative;
+  }
+  .current-menu-item>a {
+    background-color: transparent;
+    color: white !important;
+  }
+  .modal-dialog {
+    max-width: 750px;
+  }
+  .content-wrapper.hero-unit {
+    height: auto !important;
+    .row.single-news {
+      .col-md-12.single-news {
+        .row {
+          .col-xl-6.col-lg-5.col-md-12.col-sm-12 {
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .filiale-image img {
+    min-height: 50px !important;
+    height: auto !important;
+  }
+  #video_page_img {
+    padding-right: 0;
+    margin-bottom: 30px;
+    img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  #video_page_content {
+    padding-left: 0;
+  }
+  .nav-primary.sticky {
+    display: none;
+  }
+  #videos_home,
+  #whatsapp_home,
+  #Mitarbeiter_image {
+    .text {
+      padding: 0 !important;
+    }
+  }
+}

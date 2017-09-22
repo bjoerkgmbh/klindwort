@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<notdienstplan>
+  <beschreibung>Notdienstbereite Apotheken in den folgenden PLZ-Bereichen: 23552 - 23669</beschreibung>
+  <zeitraum>21.09.2017 bis 22.09.2017</zeitraum>
+  <notdienstzeiten>Jeweils von 8:00 Uhr des angegebenen Tages bis 8:00 Uhr des Folgetages.
+Auf den Inseln gelten ggf. abweichende Notdienstzeiten.</notdienstzeiten>
+  <erstellungsdatum>21.09.2017 13:28:11</erstellungsdatum>
+  <notdienste>
+    <notdienst>
+      <datum>21.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Klindwort-Apotheke Rathausgasse oHG</apotheke>
+      <strasse>Rathausgasse 2</strasse>
+      <plz>23611</plz>
+      <ort>Bad Schwartau</ort>
+      <ortsteil/>
+      <telefon>0451-2925055</telefon>
+      <latitude>53.919105</latitude>
+      <longitude>10.696169</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>21.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Wandels Apotheke St. Hubertus</apotheke>
+      <strasse>St. Hubertus 28</strasse>
+      <plz>23627</plz>
+      <ort>Groß Grönau</ort>
+      <ortsteil/>
+      <telefon>04509-87670</telefon>
+      <latitude>53.821074</latitude>
+      <longitude>10.725145</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>21.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Pegasus-Apotheke</apotheke>
+      <strasse>Sandstr. 16</strasse>
+      <plz>23552</plz>
+      <ort>Lübeck</ort>
+      <ortsteil/>
+      <telefon>0451-73729</telefon>
+      <latitude>53.865281</latitude>
+      <longitude>10.684992</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>21.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Pinguin-Apotheke im Hochschulstadtteil</apotheke>
+      <strasse>Alexander-Fleming-Str. 1</strasse>
+      <plz>23562</plz>
+      <ort>Lübeck</ort>
+      <ortsteil/>
+      <telefon>0451-29289666</telefon>
+      <latitude>53.832131</latitude>
+      <longitude>10.69032</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>22.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Die Kgl. Privil. Apotheke und ARBOMED Sanitätshaus</apotheke>
+      <strasse>Plöner Str. 5</strasse>
+      <plz>23623</plz>
+      <ort>Ahrensbök</ort>
+      <ortsteil/>
+      <telefon>04525-1228</telefon>
+      <latitude>54.010571</latitude>
+      <longitude>10.572637</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>22.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Wandels Apotheke EKZ Krummesse</apotheke>
+      <strasse>Beidendorfer Weg 30</strasse>
+      <plz>23628</plz>
+      <ort>Krummesse</ort>
+      <ortsteil/>
+      <telefon>04508-777000</telefon>
+      <latitude>53.78002</latitude>
+      <longitude>10.65001</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>22.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Dom-Apotheke</apotheke>
+      <strasse>Pferdemarkt 6-8</strasse>
+      <plz>23552</plz>
+      <ort>Lübeck</ort>
+      <ortsteil/>
+      <telefon>0451-78609</telefon>
+      <latitude>53.863957</latitude>
+      <longitude>10.684779</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>22.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Trave-Apotheke</apotheke>
+      <strasse>Mecklenburger Str. 49</strasse>
+      <plz>23568</plz>
+      <ort>Lübeck</ort>
+      <ortsteil/>
+      <telefon>0451-690708</telefon>
+      <latitude>53.888031</latitude>
+      <longitude>10.797834</longitude>
+    </notdienst>
+    <notdienst>
+      <datum>22.09.2017</datum>
+      <startzeit>08:00</startzeit>
+      <apotheke>Lilien-Apotheke</apotheke>
+      <strasse>Segeberger Str. 15</strasse>
+      <plz>23617</plz>
+      <ort>Stockelsdorf</ort>
+      <ortsteil/>
+      <telefon>0451-498490</telefon>
+      <latitude>53.886146</latitude>
+      <longitude>10.65037</longitude>
+    </notdienst>
+  </notdienste>
+</notdienstplan>

@@ -1,0 +1,225 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "2",
+            "short_name" : "2",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Rathausgasse",
+            "short_name" : "Rathausgasse",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Bad Schwartau",
+            "short_name" : "Bad Schwartau",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Ostholstein",
+            "short_name" : "Ostholstein",
+            "types" : [ "administrative_area_level_3", "political" ]
+         },
+         {
+            "long_name" : "Schleswig-Holstein",
+            "short_name" : "SH",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Deutschland",
+            "short_name" : "DE",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "23611",
+            "short_name" : "23611",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003eRathausgasse 2\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e23611\u003c/span\u003e \u003cspan class=\"locality\"\u003eBad Schwartau\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eDeutschland\u003c/span\u003e",
+      "formatted_address" : "Rathausgasse 2, 23611 Bad Schwartau, Deutschland",
+      "formatted_phone_number" : "0451 2925055",
+      "geometry" : {
+         "location" : {
+            "lat" : 53.918909,
+            "lng" : 10.6964399
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 53.9202697302915,
+               "lng" : 10.6978465302915
+            },
+            "southwest" : {
+               "lat" : 53.9175717697085,
+               "lng" : 10.6951485697085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "2e5ad3bfdc76acce63f3f02ce8d69addda665dca",
+      "international_phone_number" : "+49 451 2925055",
+      "name" : "Klindwort Apotheke Rathausgasse",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1800"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "1300"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0800"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Montag: 08:00–18:30 Uhr",
+            "Dienstag: 08:00–18:30 Uhr",
+            "Mittwoch: 08:00–18:00 Uhr",
+            "Donnerstag: 08:00–18:30 Uhr",
+            "Freitag: 08:00–18:30 Uhr",
+            "Samstag: 08:00–13:00 Uhr",
+            "Sonntag: Geschlossen"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 5312,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111271468337706949140/photos\"\u003eAndreas\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAtIU-5f86rH945w3O93zAuNujph4jx6bIRWZq_pZ8vXFaUZ_FB5U5XUgjdtwjIYiyeVsVC1KqktrhHja4AJSyEiRJAquRobNgNkejMwRQ4L93tkKFXNqW9bVnKJObnjjYEhCeYj6OOoAOA0NHJzpLBgcAGhQaFadO-S8NBQUX47atwCR9l7B4OQ",
+            "width" : 2988
+         },
+         {
+            "height" : 1367,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110425371003805868537/photos\"\u003eKlindwort Apotheke Rathausgasse\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA9bhXgiwHIGQmGzSAie_mIS5NWJb45UpZk1iqRpWyyqmwI29_SZv6Fj_5tgzzJo4qUNfK7RehBRVyY5jYOvascSbP-PMcSLlH90rUN6hyNnrRkhZ2pmuwsZvEBbhtn1HdEhDRlgbeDu0HnjWhVHZL8ZPlGhSc6J5QTv1c-bGsbt_u-K7ixC81xQ",
+            "width" : 1367
+         },
+         {
+            "height" : 1061,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110425371003805868537/photos\"\u003eKlindwort Apotheke Rathausgasse\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA7h8dYhlFp34Qjs2mbnm30YFXPO82MZuoY8-PfrbFmjZNf99x8Vx4N6VTnGNz2nyV3EKOEy_PEs3v5TrN9DVltl38Nh-tpCHhV_oOZ2Nqcan9aM1FN2PkThEzTDS-Z560EhBJezoePGaUuLjkLSqsrgKeGhRPXI2ZcnsM1NSXH6YgSRPdj5Dbyg",
+            "width" : 2048
+         },
+         {
+            "height" : 1000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110425371003805868537/photos\"\u003eKlindwort Apotheke Rathausgasse\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAPFs9Ilz2ntY4hJumwJG5BPx7IW2bPMe6eFG_W9H_SUN6YjeDPJ39rp_rqZHM45MBn-cZRFUrfII36YtYk9Q6gmvO2n5GOuVcou2YSJj54FwroJWpWoSBrQAut5nJAlApEhCkimJNIAXJAINrI1jGnrFyGhT-GoQamjc5zkaGTQHN6vGPdgLhdQ",
+            "width" : 1000
+         }
+      ],
+      "place_id" : "ChIJORzXoH4LskcRcjubHWlI_is",
+      "rating" : 4,
+      "reference" : "CmRRAAAA1r7sGgZrVFHkkujEOHQ4LDxvXtHfbl4YzrWP2wojo0EiOmtEyy4B3QuTqR15oIk6HSM7-3wq_jd4jaMOfiq6XPBCPTS6nsDSTZdlUli1UXgu8OYtpbPT6oUmfvxtu8scEhBAgWf4jWeAVh2GEkr9Fg7dGhRfvii-wjNnbVRZi4STIs1XDQzVtg",
+      "reviews" : [
+         {
+            "author_name" : "Florian Ziese",
+            "author_url" : "https://www.google.com/maps/contrib/105805016306844618321/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-Nh83L_g3FbA/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePYYRkyqYqvhwVEaWXrsRyw7QmiuBw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 5 Monaten",
+            "text" : "Nicht nur das Sanitätshaus ist um Welten freundlicher und kompetenter als Schütt und Grundei, auch der Service in der Apotheke in der ich danach war, zeigt, dass ein junger dynamischer Apotheker mit tollen Ideen und einer Eigenmarken nicht vor DocMorris zurückschrecken muss, denn hier bekomme ich zu fairen Preisen auch eine kompetente Beratung!!!",
+            "time" : 1492947549
+         },
+         {
+            "author_name" : "Andreas",
+            "author_url" : "https://www.google.com/maps/contrib/111271468337706949140/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-X5rOS_-i7U0/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePYeT2PnajJ8tkbQtBYKZ5P1cNKO0w/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 5 Monaten",
+            "text" : "Gute Apotheke,viele Parkplätze in der Nähe",
+            "time" : 1492239524
+         },
+         {
+            "author_name" : "Michaela Berner",
+            "author_url" : "https://www.google.com/maps/contrib/109810795333621967402/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-soetjXsDibc/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePZ4cMAwPhuO6fkk6qlQ5w9Ke2DbbQ/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "vor 4 Wochen",
+            "text" : "Sehr nettes Personal",
+            "time" : 1503407880
+         },
+         {
+            "author_name" : "Patrick Ohmann",
+            "author_url" : "https://www.google.com/maps/contrib/110503298993012006274/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-ev3vLGCoyeg/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePYFjeNs3hL_HNeUGzO1uO8ZS6evQA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 1,
+            "relative_time_description" : "vor 6 Monaten",
+            "text" : "",
+            "time" : 1487959383
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "pharmacy", "health", "store", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=3170050804020886386",
+      "utc_offset" : 120,
+      "vicinity" : "Rathausgasse 2, Bad Schwartau",
+      "website" : "http://www.klindwort.de/"
+   },
+   "status" : "OK"
+}

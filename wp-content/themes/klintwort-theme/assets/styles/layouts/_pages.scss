@@ -1,0 +1,323 @@
+h2.sub-headline {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.entry-content {
+  h4 {
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  ul {
+    margin-bottom: 30px;
+  }
+}
+
+.sidebar-primary .team-container {
+  max-width: 70%;
+  display: inline-block;
+}
+
+.team h4 {
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+
+span.team-title {
+  font-size: 1em;
+  color: $dark-grey;
+  font-style: italic;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.team img {
+  max-width: 100%;
+  height: auto;
+}
+
+.locations .box-shadow {
+  box-shadow: 3px 5px 10px 0 rgba(150, 150, 150, 0.3);
+}
+
+#ajax-panel {
+  padding-bottom: 30px;
+  display: none;
+}
+
+.sidebar {
+  float: right;
+}
+
+.single .single-news {
+  margin-bottom: 30px;
+  h4 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+.wp-post-image {
+  max-width: 100%;
+  width: 100%;
+}
+
+article .text {
+  margin-bottom: 30px;
+}
+
+.image-post-link {
+  display: block;
+  position: relative;
+}
+
+.filiale {
+  padding: 10px 5px 5px 5px;
+}
+
+.filiale-image img {
+  max-width: 100%;
+  min-height: 424px;
+}
+
+.filiale p:nth-child(3) {
+  margin: 0;
+}
+
+.news-container .text {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+#modaal-id-10 h2 {
+  margin-bottom: 15px;
+}
+
+.hide-infos {
+  display: none !important;
+}
+
+.pharmacy {
+  color: #c31824;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.col-md-7 {
+  height: auto;
+  .img-responsive {
+    width: 100%;
+  }
+}
+
+.col-lg-5.col-md-6.col-sm-12 {
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+.between_line {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  color: #707376;
+}
+
+.job_section {
+  .col-md-12 {
+    img {
+      display: none;
+    }
+  }
+}
+
+.widget_text {
+  .between_line {
+    display: none;
+  }
+  .job_section {
+    .col-md-12 {
+      img {
+        display: none;
+      }
+    }
+  }
+  .row:last-child {
+    .col-md-12 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+#accordion {
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+.sep-30.under-logo {
+  display: none;
+}
+
+#filialen_kontakt,
+#filialen_willkommen_nachricht {
+  margin-top: 50px;
+}
+
+#mitarbeiterTippHome {
+  .content-wrapper {
+    height: 245px;
+    overflow: hidden;
+    .row {
+      .col-xl-6.col-lg-8.col-md-8.col-sm-12 {
+        overflow-y: auto;
+        height: 245px;
+      }
+      .col-xl-6.col-lg-4.col-md-4.col-sm-12 {
+        padding-left: 0;
+        #Mitarbeiter_image {
+          .text {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.col-xl-3.col-lg-6.col-md-6.col-sm-6 {
+  .content-wrapper {
+    height: auto;
+  }
+}
+
+ul.lcp_catlist {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    h2 {
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+#pagination {
+  .page-numbers {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    color: #707376 !important;
+  }
+  .page-numbers.current {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c31824 !important;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.col-xl-6.col-lg-12.col-md-12.col-sm-12 {
+  img {
+    height: auto;
+  }
+}
+
+.news_image {
+  height: auto !important;
+}
+
+.col-xl-6.col-lg-12.col-md-12.col-sm-12 {
+  h2 {
+    margin-top: 0 !important;
+  }
+}
+
+.hero-unit .col-md-12.single-news img {
+  margin-bottom: 0 !important;
+}
+
+#video_page_img {
+  img {
+    height: auto !important;
+  }
+}
+
+.row.whitebg {
+  margin-bottom: 40px;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #707376;
+  border-radius: 50%;
+  border-top: 16px solid #c31824;
+  width: 100px;
+  height: 100px;
+  animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-bottom {
+  position: relative;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+.main .row .col-xl-7.col-lg-12.col-md-12 .content-wrapper {
+  height: 200px;
+  overflow: hidden;
+  .row {
+    .col-xl-6.col-lg-7.col-md-7.col-sm-12.col-xs-12 {
+      overflow-y: auto;
+      height: 200px;
+    }
+  }
+}
+
+header.banner {
+  margin-top: 30px;
+}

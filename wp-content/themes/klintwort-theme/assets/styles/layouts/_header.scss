@@ -1,0 +1,321 @@
+.top-bar {
+  background-color: $light-grey;
+}
+
+.top-bar .col-md-12 {
+  align-items: stretch;
+  display: flex;
+}
+
+.top-bar a {
+  flex: 1;
+  background: $light-grey;
+  // height: 100%;
+  padding: 1em 0;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+}
+
+.top-bar a:hover {
+  background-color: rgba($dark-grey, 0.3);
+  color: $light-grey;
+}
+
+.top-bar-content {
+  background-color: $light-grey;
+  margin-top: 5px;
+}
+
+.top-bar-content h2 {
+  font-weight: 300;
+  color: $brand-primary;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.top-bar-content--close {
+  float: right;
+}
+
+.top-bar-content--close h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: $dark-grey;
+  cursor: pointer;
+}
+
+.top-bar a:before {
+  content: "";
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 5px;
+  background-size: contain!important;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+
+.top-bar-content button.btn.btn-default.red {
+  vertical-align: sub;
+  margin-top: 26px;
+  background-color: $brand-primary;
+  color: white;
+}
+
+.top-bar-content input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.apotheken-notdienst:before {
+  background: transparent url('../images/icon-quicktipp-notdienst.svg') no-repeat 50%;
+}
+
+.notfall-rufnummern:before {
+  background: transparent url('../images/icon-quicktipp-rufnummern.svg') no-repeat 50%;
+}
+
+.geoeffnete-apotheken:before {
+  background: transparent url('../images/icon-quicktipp-uhr.svg') no-repeat 50%;
+}
+
+.whatsapp-bestellung:before {
+  background: transparent url('../images/icon-quicktipp-whatsapp.svg') no-repeat 50%;
+}
+
+.pollenflugkalender:before {
+  background: transparent url('../images/icon-quicktipp-pollenflug.svg') no-repeat 50%;
+}
+
+#geoeffnete-apotheken {
+  .col-md-4, .col-md-5 {
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 0;
+    }
+    .filialen {
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    .email {
+      margin-bottom: 20px;
+    }
+    .opening {
+      color: #c31824;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .opening_hours {
+      display: table;
+      >div {
+        display: table-row;
+        p {
+          display: table-cell;
+          &:first-child {
+            padding-right: 15px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+.brand {
+  background: url('../images/logo-klindwort.svg') no-repeat center;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  height: 110px;
+  background-position: left;
+  background-size: 260px;
+  margin-bottom: -15px;
+}
+
+// .above-top-nav {
+//   display: flex;
+//   align-content: inherit;
+//   align-items: flex-end;
+// }
+
+.above a {
+  color: grey;
+  text-transform: lowercase;
+  margin-bottom: 4px;
+  display: block;
+}
+
+a.brand.above {
+  flex: 3;
+}
+
+// .above-top-nav {
+//   margin-bottom: 15px;
+//   .col-md-7 {
+//     display: flex; 
+//     justify-content: space-between; 
+//     align-items: center;
+//     div {
+//       a {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: baseline;
+//         justify-content: center;
+//         align-items: center;
+//         margin-bottom: 0;
+//         i {
+//           height: auto;
+//           margin-right: 5px;
+//           font-size: 40px;
+//           color: #fff;
+//           text-shadow: 1px 1px 5px #000;
+//         }
+//         p {
+//           margin-bottom: 0;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.above-top-nav {
+  display: flex;
+  align-content: inherit;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  .col-lg-8.col-md-7 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    div {
+      a {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        img {
+          width: 40px;
+          height: 30px;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.above-top-nav .search-field {
+  color: $dark-grey!important;
+  background-color: #fff;
+  background-image: url('../images/icon-header-lupe.svg');
+  background-position: 90%;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: 1px solid grey;
+  border-radius: 0;
+  cursor: pointer;
+  height: 37px;
+  margin: 3px 0;
+  padding: 0 0 0 15px;
+  position: relative;
+  -webkit-transition: width 400ms ease, background 400ms ease;
+  transition: width 400ms ease, background 400ms ease;
+  outline: 0; //width: 230px;
+}
+
+.above-top-nav .search-field:focus {
+  color: grey;
+}
+
+.above-top-nav::-webkit-input-placeholder {
+  color: $dark-grey!important;
+}
+
+.above-top-nav::-moz-placeholder {
+  color: $dark-grey!important;
+}
+
+.above-top-nav:-ms-input-placeholder {
+  color: $dark-grey!important;
+}
+
+.above-top-nav:-moz-placeholder {
+  color: $dark-grey!important;
+}
+
+.search-form .search-submit {
+  display: none;
+}
+
+#breadcrumbs,
+#breadcrumbs li {
+  display: inline-block;
+  padding: 0;
+  color: $dark-grey;
+}
+
+#breadcrumbs {
+  .item-parent {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .item-home {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .item-cat {
+    a {
+      cursor: text;
+      color: #707376 !important;
+      &:hover {
+        color: #707376 !important;
+      }
+    }
+  }
+}
+
+.font-size {
+  text-align: right;
+}
+
+.add-font-size {
+  color: $dark-grey;
+  font-size: 14px;
+}
+
+.add-font-size span {
+  font-weight: bold;
+  color: $dark-grey;
+  cursor: pointer;
+}
+
+.font-size.size-normal {
+  font-size: 1em;
+}
+
+.font-size.size-big {
+  font-size: 1.4em;
+}
+
+.font-size.size-large {
+  font-size: 1.75em;
+}
+
+.breadcrumb-holder {
+  color: $dark-grey;
+}
+
+.separator {
+  margin: 0 5px;
+}

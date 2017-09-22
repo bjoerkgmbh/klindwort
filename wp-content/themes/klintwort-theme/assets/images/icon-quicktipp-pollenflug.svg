@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Header" transform="translate(-1124.000000, -16.000000)" stroke="#707376" stroke-width="1.3">
+            <g id="Quickinfo">
+                <g id="Group" transform="translate(1124.000000, 16.000000)">
+                    <path d="M0.6504,31.0503 L7.1504,26.4253 L14.7754,11.5503 C15.2754,11.5503 27.5254,9.0503 27.5254,9.0503" id="Stroke-1"></path>
+                    <polyline id="Stroke-3" points="3.9004 8.1753 14.7754 11.5503 5.6504 1.4253"></polyline>
+                    <path d="M15.1504,11.5503 L24.2754,5.5503" id="Stroke-5"></path>
+                    <path d="M10.9316,0.6499 L14.7446,11.5759" id="Stroke-7"></path>
+                    <path d="M15.4473,1.5112 L15.4783,11.5892" id="Stroke-9"></path>
+                    <path d="M18.7803,5.2466 L15.2703,11.1036" id="Stroke-11"></path>
+                    <path d="M8.2754,7.6753 L14.2124,11.3003" id="Stroke-13"></path>
+                    <path d="M14.7676,11.3941 L22.7206,14.5821" id="Stroke-15"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

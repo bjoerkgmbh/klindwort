@@ -1,0 +1,118 @@
+footer {
+  a {
+    transition: .3s color ease-in-out;
+    &:hover {
+      color: #7f1017 !important;
+      text-decoration: none;
+    }
+  }
+}
+
+footer h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+}
+
+.background-grey {
+  background-color: $dark-grey;
+  padding: 1em 0;
+  color: white;
+}
+
+.footer-brand {
+  min-height: 70px;
+  display: block;
+  background: transparent url('../images/logo-klindwort-weiss.svg') no-repeat center;
+  background-size: contain;
+  background-position: left;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social-media li:hover {
+  cursor: pointer;
+}
+
+.social-media li:before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 7px;
+  vertical-align: middle;
+  background-size: contain!important;
+}
+
+.social-media li:first-child:before {
+  margin-left: 0 !important;
+}
+
+.social-media li.facebook:before {
+  background: transparent url('../images/icon-footer-facebook.svg') no-repeat 50%;
+}
+
+.social-media li.youtube:before {
+  background: transparent url('../images/icon-footer-youtube.svg') no-repeat 50%;
+}
+
+.social-media li.googleplus:before {
+  background: transparent url('../images/icon-footer-google.svg') no-repeat 50%;
+}
+
+.social-media li.xing:before {
+  background: transparent url('../images/icon-footer-xing.svg') no-repeat 50%;
+}
+
+.fa-facebook-official {
+  color: white;
+  transition: .3s color ease-in-out;
+  &:hover {
+    color: #1938a2;
+  }
+}
+
+.fa-youtube-play {
+  color: white;
+  transition: .3s color ease-in-out;
+  &:hover {
+    color: #7f1017;
+  }
+}
+
+#menu-footer-menu {
+  // margin-top: 65px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+#menu-footer-menu li {
+  margin-right: 20px;
+}
+
+#menu-footer-menu li:last-child {
+  margin-right: 0px;
+}
+
+#menu-footer-menu li a {
+  color: white;
+}
+
+#text-7 p a {
+  margin-right: 15px;
+}

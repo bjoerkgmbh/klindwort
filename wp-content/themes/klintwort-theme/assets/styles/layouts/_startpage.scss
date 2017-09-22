@@ -1,0 +1,117 @@
+.main {
+  &>.row {
+    margin-bottom: 30px;
+    &>[class*="col-"]>.row:first-child {
+      margin-bottom: 30px;
+    }
+  }
+  .content-wrapper.hero-unit {
+    height: 240px;
+    box-shadow: 3px 5px 10px 0 rgba(150, 150, 150, 0.3);
+    background-color: white;
+    overflow: hidden;
+    .row.single-news {
+      .col-md-12.single-news {
+        padding-left: 15px !important;
+      }
+    }
+    .text {
+      padding-left: 15px;
+      h2 {
+        font-weight: 300;
+      }
+    }
+    .col-md-12.single-news {
+      margin-bottom: 0;
+      img {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  .content-wrapper.red {
+    background-color: $brand-primary;
+    color: white;
+    flex-basis: auto;
+    height: 240px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    & h3 {
+      color: white;
+    }
+  }
+  .face-book-wrapper {
+    height: 430px;
+    .text {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+    .whitebg .col-sm-12 p {
+      margin-top: 10px;
+      margin-bottom: 45px;
+      line-height: 1.4;
+    }
+  }
+  .content-wrapper {
+    background-color: $light-grey;
+    .col-md-6 {
+      .img-responsive {
+        min-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .content-wrapper-right {
+    background-color: #6f7376;
+    width: 100%;
+    color: white;
+    h3 {
+      color: white;
+    }
+    p {
+      color: white;
+    }
+    .btn {
+      border: 1px solid white !important;
+      color: white !important;
+      padding: 10px 25px;
+      &:hover {
+        background-color: #c31824;
+      }
+    }
+  }
+  .row {
+    .col-lg-8.col-md-7.col-sm-12 {
+      article {
+        header {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+.text {
+  padding: 0 20px;
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+#videos_home,
+#whatsapp_home,
+#Mitarbeiter_image {
+  .text {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+  }
+}

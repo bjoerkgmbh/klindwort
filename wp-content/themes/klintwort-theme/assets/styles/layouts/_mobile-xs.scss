@@ -1,0 +1,230 @@
+@media (max-width: 500px) {
+  h1 {
+    line-height: 1.2;
+  }
+  header.banner {
+    margin-top: 0;
+  }
+  .row.above-top-nav {
+    .col-md-12.hidden-lg-up {
+      height: 50px;
+      button.c-hamburger {
+        right: 5px !important;
+        top: 5px !important;
+      }
+    }
+    .col-lg-4.col-md-5 {
+      .brand.above {
+        display: block;
+        background-position: bottom;
+      }
+    }
+    .col-lg-8.col-md-7 {
+      flex-wrap: wrap;
+      .search.above {
+        width: 100%;
+        margin-top: 15px;
+        form {
+          label {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .content-wrapper.hero-unit {
+    height: auto;
+  }
+  .hero-unit .text {
+    padding-left: 40px !important;
+  }
+  .top-bar-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+  }
+  .col-md-6 .content-wrapper .row .col-md-6:first-child {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .content-wrapper .col-md-8 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .row {
+    .col-lg-7.col-md-12 {
+      .row {
+        .col-md-12 {
+          .content-wrapper {
+            .row {
+              .col-md-5.col-sm-6 {
+                .text {
+                  padding-right: 40px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #mitarbeiterTippHome {
+    .content-wrapper {
+      .row {
+        .col-xl-6.col-lg-8.col-md-8.col-sm-7 {
+          .text {
+            padding-right: 40px !important;
+          }
+        }
+        .col-xl-6.col-lg-4.col-md-4.col-sm-5 {
+          img {
+            height: auto !important;
+          }
+        }
+      }
+    }
+  }
+  .col-xl-3 {
+    .content-wrapper,
+    .content-wrapper-right {
+      .text {
+        .row {
+          .col-md-12 {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            height: 200px !important;
+          }
+        }
+      }
+    }
+  }
+  #carouselExampleIndicators {
+    height: 200px;
+  }
+  .carousel-inner {
+    height: 200px;
+    .carousel-item {
+      img {
+        height: 200px;
+      }
+    }
+  }
+  .carousel-inner .carousel-item .link {
+    bottom: 25%;
+  }
+  .carousel-indicators {
+    bottom: 0;
+  }
+  .search.above {
+    form.search-form {
+      label {
+        margin-bottom: 2px;
+      }
+    }
+  }
+  .ap-form-wrapper.ap-front-form-styler {
+    padding-right: 0 !important;
+  }
+  .col-sm-3half.shopbox {
+    width: 100% !important;
+    text-align: center !important;
+    margin-right: 8px!important;
+    .shopproductname {
+      font-size: 25px;
+      width: 100%;
+      height: 40px;
+    }
+    .shopmanu {
+      font-size: 20px;
+      width: 100%;
+      height: 40px;
+    }
+    .shopamount {
+      width: 100%;
+      font-size: 18px;
+    }
+    .shopprice {
+      width: 100%;
+    }
+  }
+  form {
+    .row.form_block {
+      margin-bottom: 30px !important;
+    }
+  }
+  form {
+    .row.form_block_top {
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+    }
+  }
+  .filiale {
+    padding: 20px 30px 5px;
+  }
+  #qualitizeFeedbackIFrame4859207842138820608 {
+    width: 100% !important;
+  }
+  #videos_home,
+  #whatsapp_home {
+    padding-top: 0 !important;
+    .text {
+      padding-top: 0 !important;
+    }
+  }
+  footer {
+    #text-6 {
+      margin-bottom: 30px;
+    }
+    #nav_menu-2 {
+      margin-top: 8px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #carouselExampleIndicators {
+    height: 130px;
+  }
+  .carousel-inner {
+    height: 130px;
+    .carousel-item {
+      img {
+        height: 130px;
+      }
+    }
+  }
+  .carousel-inner .carousel-item .link {
+    bottom: 25%;
+  }
+  .carousel-indicators {
+    bottom: -15px;
+    li {
+      width: 10px;
+      height: 10px;
+    }
+    .active {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .text {
+    padding: 20px !important;
+  }
+  .hero-unit .single-news .col-xl-6.col-lg-5.col-md-12.col-sm-12 .text {
+    padding: 20px !important;
+  }
+  #Mitarbeiter_image .text,
+  #videos_home .text,
+  #whatsapp_home .text {
+    padding: 20px !important;
+  }
+  #videos_home,
+  #whatsapp_home {
+    padding-top: 0 !important;
+    .text {
+      padding-top: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "Bad Schwartau",
+            "short_name" : "Bad Schwartau",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Ostholstein",
+            "short_name" : "Ostholstein",
+            "types" : [ "administrative_area_level_3", "political" ]
+         },
+         {
+            "long_name" : "Schleswig-Holstein",
+            "short_name" : "SH",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Deutschland",
+            "short_name" : "DE",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "23611",
+            "short_name" : "23611",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "Lübecker Straße 18-20, \u003cspan class=\"postal-code\"\u003e23611\u003c/span\u003e \u003cspan class=\"locality\"\u003eBad Schwartau\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eDeutschland\u003c/span\u003e",
+      "formatted_address" : "Lübecker Straße 18-20, 23611 Bad Schwartau, Deutschland",
+      "formatted_phone_number" : "0451 2925011",
+      "geometry" : {
+         "location" : {
+            "lat" : 53.917475,
+            "lng" : 10.698284
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 53.9188239802915,
+               "lng" : 10.6996329802915
+            },
+            "southwest" : {
+               "lat" : 53.9161260197085,
+               "lng" : 10.6969350197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "84e1741ab1d56c71bd7cec6f55290416aa5fb477",
+      "international_phone_number" : "+49 451 2925011",
+      "name" : "Klindwort Apotheke Lübecker Straße",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1800"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1830"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1800"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "1300"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0830"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Montag: 08:00–18:30 Uhr",
+            "Dienstag: 08:00–18:30 Uhr",
+            "Mittwoch: 08:00–18:00 Uhr",
+            "Donnerstag: 08:00–18:30 Uhr",
+            "Freitag: 08:00–18:00 Uhr",
+            "Samstag: 08:30–13:00 Uhr",
+            "Sonntag: Geschlossen"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 5312,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111271468337706949140/photos\"\u003eAndreas\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAcw6grvrPuFGcESFXKibW28GyrrbbCRd8y1Y6f010YS-wLfnMG7cgbtwxsrXNzfLB97mrE1v31NHb32y-ZUUBUAYH9UGQSV_C1LeefORA-OvvjUVEW2YhOvclLbzVJpVtEhAwGQTpCv3VuaTXm2OcaDjwGhT_rZoyOgtIS07IfFEXt-usFZSd1Q",
+            "width" : 2988
+         },
+         {
+            "height" : 1360,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114168639408681655230/photos\"\u003eKlindwort Apotheke Lübecker Straße\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAA_o6j6dYUpupwHdTbSLajhWxc1-JrHXHBl1BPU2oNfwf11eDTFNiciMMUqXHhnIY8KfPM2sQybZKhI9BvSjVYfrisShg9IJAitZPz-ZrSh9HZrc3uJblW3vKQoNmqtmREhACGFvOUNHRFpRIQ0X0hhewGhTx3kdubiogZpCvMsYvL4etl1LAFw",
+            "width" : 1361
+         },
+         {
+            "height" : 1061,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114168639408681655230/photos\"\u003eKlindwort Apotheke Lübecker Straße\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAmR4pKht3E-Dwr2iHIo4JCTVW34Ql3w_qO6RGmFl32YlZi3-qGHWHW_DYmlRF12H1yaZ81JIJWmVyYsEFtiWc-jAuGr_nPal2V0LLH5Ddy3DAFpUTEPDgMcoZzvKLlk2bEhCMDUzwALEhehmmoN43SAlBGhSvqsEf-j7QmeGAmibuVViv7uc2Xw",
+            "width" : 2048
+         },
+         {
+            "height" : 1000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114168639408681655230/photos\"\u003eKlindwort Apotheke Lübecker Straße\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAmUJHb7SNC712szOIZ6Jx4DG2S7_VOv7L4gvJY7fWMZlJ7LUUBhzPxhp0_dGT5iJ2_bqth876wMgO7Ix1jIZCXIst_D1PH7bbFer_SCZcTuUTGLiPFfTO6gGOBl4Jmeo5EhA1SxzdbFRViBXhcCYSx-g3GhSN0DSP31rkDltH9VR5wjQHTnoFuw",
+            "width" : 1000
+         }
+      ],
+      "place_id" : "ChIJ2_wnOHkLskcRGTne-IlonL0",
+      "rating" : 2,
+      "reference" : "CmRSAAAA34q__lS5SAttV6Gqn09NgmIIuyFUKOP6-pPzhD1k7yutYaLzZoSo0kgFKiSLVpX5x97cEeNWX2cYR3InuytrhUpmDw_wkNk4vKbks8Fe4acEmwXgc5SsWvwvo9iYkI03EhBSkZaJ3XvX-_5eRSsYuJyYGhQPLfYxGm8JwejelxNVLulWHWO1yQ",
+      "reviews" : [
+         {
+            "author_name" : "Gulasch Suppe",
+            "author_url" : "https://www.google.com/maps/contrib/107342511631212673566/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-kjlas45f9-w/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePYXkI3XChIfX_JOmEkLwTuHUqAkAA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 1,
+            "relative_time_description" : "vor 7 Monaten",
+            "text" : "Schlechte Beratung - Unfreundlich und Inkompetent.\n\n Mir wurde von einem einfachen Hausmittel tunlichst abgeraten, und stattdessen eine völlig überteuerte Salbe verkauft, die alles noch schlimmer gemacht hat. Ich habe im Nachhinein sehr wohl, durch die von der \"Fachkraft\" regelrecht als lächerlich oder spartanisch dargestellte Hausmittelvariante, den gewünschten Heilungsprozess erreichen können und bedanke mich nun rechtherzlich für die Verlängerung meiner Beschwerden auch noch Geld gezahlt zu haben.",
+            "time" : 1487775809
+         },
+         {
+            "author_name" : "Andreas",
+            "author_url" : "https://www.google.com/maps/contrib/111271468337706949140/reviews",
+            "language" : "de",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-X5rOS_-i7U0/AAAAAAAAAAI/AAAAAAAAAAA/ACnBePYeT2PnajJ8tkbQtBYKZ5P1cNKO0w/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+            "rating" : 3,
+            "relative_time_description" : "vor 5 Monaten",
+            "text" : "Super Apotheke.Leider nicht ganz billig.",
+            "time" : 1491926232
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "pharmacy", "health", "store", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=13662910311330363673",
+      "utc_offset" : 120,
+      "vicinity" : "Lübecker Straße 18-20, Bad Schwartau",
+      "website" : "http://www.klindwort.de/"
+   },
+   "status" : "OK"
+}

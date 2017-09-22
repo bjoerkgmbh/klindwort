@@ -1,0 +1,97 @@
+.btn.btn-default.red:hover {
+  background-color: $brand-primary;
+  color: white;
+}
+
+.row.order-buttons {
+  margin-bottom: 15px;
+}
+
+.order-buttons > div button {
+  margin: 0 15px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid $brand-primary;
+  font-size: 1em;
+  color: $dark-grey;
+  width: 46%;
+}
+
+.order-buttons > div button.active,
+.order-buttons > div button.active1 {
+  background-color: $brand-primary;
+  color: #fff;
+}
+
+.order-buttons > div {
+  display: flex;
+  flex-wrap: inherit;
+}
+
+.btn.btn-default.add-button {
+  background-color: transparent;
+  border: 1px solid $dark-grey;
+  color: $dark-grey!important;
+  width: 100%;
+}
+
+.btn.btn-default.add-button:focus {
+  background-color: $dark-grey;
+  color: $light-grey!important;
+  border: 1px solid $dark-grey;
+  width: 100%;
+}
+
+.red.foto-upload {
+  background-color: transparent;
+  padding: 1em;
+  color: #000!important;
+  border: 1px solid $brand-primary;
+  font-size: 1.2em;
+  color: $dark-grey!important;
+}
+
+button.btn.btn-default.red.form-manuell {
+  width: 47%;
+}
+
+input.wpcf7-form-control.wpcf7-file.btn.btn-default.red.foto-upload {
+  display: none;
+}
+
+label.foto-upload {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 47%;
+  margin-left: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  height: 80px;
+}
+
+label.foto-upload:before {
+  content: "Rezeptfoto hochladen";
+  background-color: transparent;
+  padding: 27px;
+  color: #000!important;
+  border: 1px solid $brand-primary;
+  font-size: 1em;
+  color: $dark-grey!important;
+  width: 100%;
+  display: inline-block;
+}
+
+.rezept.order-buttons {
+  .btn.btn-default.red:hover, .comment-form input.btn-default.red[type=submit]:hover, .search-form .btn-default.red.search-submit:hover {
+    background-color: transparent;
+    color: #707376;
+  }
+}
+
+#sales {
+  border: 1px solid #fff!important; 
+  color: #fff!important; 
+  padding: 10px 25px;
+  transition: all .3s ease-in-out;
+}

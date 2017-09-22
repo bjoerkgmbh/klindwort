@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: $brand-primary;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h2 {
+  color: $brand-primary;
+  font-size: 1.5em;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: $dark-grey;
+}
+
+h4 {
+  font-weight: bold;
+  color: $brand-primary;
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 1em !important;
+  font-weight: bold;
+  color: $brand-primary;
+  font-size: 1rem;
+  margin-bottom: .7rem;
+  margin-top: 1rem;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: block;
+  color: $dark-grey;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}

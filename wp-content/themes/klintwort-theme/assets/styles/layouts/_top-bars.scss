@@ -1,0 +1,192 @@
+#apotheken-notdienst {
+  #all-informations {
+    height: 0;
+    #description,
+    #emergencyServiceTimes,
+    #creationDate,
+    #print_page {
+      padding-left: 0;
+    }
+    #emergencyServiceTimes {
+      color: #c31824;
+    }
+    #description {
+      margin-bottom: 30px;
+      p {
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+    #creationDate {
+      p {
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+    #addresses {
+      width: auto;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .col-md-6 {
+        padding-left: 0;
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+    #googleMap {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    #print_page {
+      margin-top: 30px;
+    }
+  }
+  #error-message {
+    display: inline-block;
+    display: none;
+    width: 100%;
+    p {
+      color: #c31824;
+      span {
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+.show-error-message {
+  display: block !important;
+}
+
+#geoeffnete-apotheken {
+  #pharmacyOpenTimes {
+    .address {
+      margin-top: 8px;
+      margin-bottom: 10px;
+    }
+    .display {
+      padding: 5px 0;
+      width: 90%;
+      border: 1px solid grey;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      background-color: ghostwhite;
+      border-radius: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      p {
+        display: inline-block;
+      }
+      .today {
+        padding-right: 5px;
+      }
+      .time {
+        padding-right: 10px;
+        font-weight: 600;
+      }
+      .value {
+        font-weight: 600;
+      }
+      .fa {
+        font-size: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.opening_hours {
+  display: table;
+  div {
+    display: table-row;
+    p {
+      display: table-cell;
+      &:first-child {
+        padding-right: 15px;
+        font-weight: 600;
+      }
+      &:last-child {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+.branch_opening_hours {
+  display: table;
+  div {
+    display: table-row;
+    p {
+      display: table-cell;
+      &:first-child {
+        padding-right: 15px;
+        font-weight: 600;
+      }
+      &:last-child {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+#pollenflugkalender {
+  .row .informations {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    div {
+      width: 20%;
+      display: flex;
+      align-items: baseline;
+      &.high {
+        .fa {
+          color: #ef0b0b;
+        }
+      }
+      &.middle {
+        .fa {
+          color: #ff9900;
+        }
+      }
+      &.low {
+        .fa {
+          color: #99ff00;
+        }
+      }
+      &.link {
+        a {
+          width: 100%;
+        }
+      }
+      .fa {
+        font-size: 1.2rem;
+        margin-right: 15px;
+      }
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+  .col-md-12.result {
+    .hoverEffect {
+      visibility: hidden;
+      display: flex;
+      align-items: baseline;
+      .fa {
+        font-size: 1.2rem;
+        margin-right: 15px;
+      }
+    }
+  }
+}

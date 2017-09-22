@@ -1,0 +1,164 @@
+@media print {
+  @media (orientation: portrait) {
+    #apotheken-notdienst {
+      &>h2 {
+        display: none;
+      }
+      p {
+        font-size: 18px;
+      }
+      .top-bar-content--close {
+        h3 {
+          display: none;
+        }
+      }
+      #apotheken-notdienst_infos {
+        display: none;
+      }
+      #form_container {
+        display: none;
+      }
+      #all-informations {
+        margin: 150px 0px !important;
+        #emergencyServiceTimes {
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #creationDate {
+          margin-bottom: 30px;
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #description {
+          margin-bottom: 15px;
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #addresses {
+          margin-top: 0;
+          width: 100%;
+          .col-md-6 {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 50%;
+            height: auto;
+            margin-bottom: 15px;
+            .pharmacy {
+              text-decoration: none;
+              font-size: 20px;
+            }
+          }
+        }
+        #googleMap {
+          margin-top: 60px;
+          height: 320px;
+        }
+        #print_page {
+          display: none;
+        }
+      }
+    }
+    #for_print_layout {
+      display: block !important;
+      position: absolute;
+      top: 30px;
+      left: 15px;
+      img {
+        width: 320px;
+      }
+    }
+    header.banner {
+      display: none;
+    }
+    #main {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+  }
+  @media (orientation: landscape) {
+    #apotheken-notdienst {
+      &>h2 {
+        display: none;
+      }
+      p {
+        font-size: 18px;
+      }
+      .top-bar-content--close {
+        h3 {
+          display: none;
+        }
+      }
+      #apotheken-notdienst_infos {
+        display: none;
+      }
+      #form_container {
+        display: none;
+      }
+      #all-informations {
+        margin: 150px 0px !important;
+        #emergencyServiceTimes {
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #creationDate {
+          margin-bottom: 0;
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #description {
+          margin-bottom: 15px;
+          p {
+            margin-bottom: 0;
+          }
+        }
+        #addresses {
+          margin-top: 0;
+          width: 100%;
+          .col-md-6 {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 50%;
+            height: auto;
+            margin-bottom: 15px;
+            .pharmacy {
+              text-decoration: none;
+              font-size: 20px;
+            }
+          }
+        }
+        #googleMap {
+          margin-top: 0;
+          height: 300px;
+        }
+        #print_page {
+          display: none;
+        }
+      }
+    }
+    #for_print_layout {
+      display: block !important;
+      position: absolute;
+      top: 30px;
+      left: 88px;
+      img {
+        width: 320px;
+      }
+    }
+    header.banner {
+      display: none;
+    }
+    #main {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+  }
+}
